@@ -35,6 +35,8 @@ sudo apt-get install -y doxygen
 
 # INSTALL THE LIBRARY (YOU CAN CHANGE '3.1.0' FOR THE LAST STABLE VERSION)
 
+# (I'm thinking I should I `cd` so I can make sure people are in the home directory while using the script?)
+
 sudo apt-get install -y unzip wget
 wget https://github.com/Itseez/opencv/archive/3.1.0.zip
 unzip 3.1.0.zip
@@ -49,4 +51,7 @@ sudo make install
 sudo ldconfig
 
 
-# EXECUTE SOME OPENCV EXAMPLES AND COMPILE A DEMONSTRATION
+# EXECUTE SOME OPENCV EXAMPLES To VERIFY
+
+
+##################### Installing Haskell-Opencv ##################### 
